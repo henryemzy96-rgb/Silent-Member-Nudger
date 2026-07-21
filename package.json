@@ -1,0 +1,17 @@
+{
+  "name": "silent-member-nudger",
+  "version": "0.1.0",
+  "description": "Telegram bot that tracks member activity in a group and DMs members who've gone quiet past a configurable threshold.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "migrate": "node src/migrate.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "pg": "^8.11.5",
+    "dotenv": "^16.4.5",
+    "node-cron": "^3.0.3"
+  },
+  "license": "MIT"
+}
