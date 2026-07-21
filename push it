@@ -1,0 +1,8 @@
+echo "node_modules/
+.env" > .gitignore
+
+git add .
+git commit -m "Initial commit: Silent-Member Nudger MVP"
+git branch -M main
+git remote add origin https://github.com/<your-username>/silent-member-nudger.git
+git push -u origin main
